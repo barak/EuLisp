@@ -1,0 +1,17 @@
+Source: eulisp
+Section: lisp
+Priority: extra
+Maintainer: Barak A. Pearlmutter <bap@debian.org>
+Build-Depends: debhelper (>= 8), autotools-dev, libgc-dev
+Standards-Version: 3.9.1
+Homepage: http://henry.github.com/EuLisp/
+Vcs-Git: git://git.debian.org/collab-maint/eulisp.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/eulisp.git;a=summary
+
+Package: eulisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dialect of lisp
+ EuLisp is a single-valued dialect of Lisp with an integrated object
+ system, a defined meta-object protocol, modules, and support for
+ threads.

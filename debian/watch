@@ -1,0 +1,5 @@
+version=3
+# true upstream:
+http://githubredir.debian.net/github/Henry/EuLisp .*/release-(.*).tar.gz
+# my own "upstream", to treat upstream snapshots as releases
+http://githubredir.debian.net/github/barak/EuLisp .*/upstream/(.*).tar.gz
